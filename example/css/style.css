@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Tahoma, sans-serif;
+    font-weight: 400;
+    color: #dbd7b6;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0;
+}
+.container {
+    max-width: 1224px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background: black;
+    align-items: center;
+}
+.menu__list-item + .menu__list-item {
+    margin-left: 30px;
+}
+
+.menu__list-link {
+    display: flex;
+    font-weight: bold;
+    color: grey;
+    height: 70px;
+    text-decoration: none;
+    width: 75px;
+    align-items: center;
+    justify-content: center;
+}
+li {
+
+    width: 65px;
+    list-style-type: none;
+    height: 55px;
+}
+.header {
+    height: 550px;
+    background: #f6f2f1;
+    padding-top: 20px;
+}
+.header__inner {
+    background: black;
+}
+.menu__list-item {
+    height: 70px;
+}
+.menu__list-link:hover {
+    background: red;
+    color: white;
+}
+.header_content {
+    display: flex;
+    justify-content: space-between;
+}
+.top__tittle {
+    letter-spacing: 4px;
+    font-size: 48px;
+    color: black;
+    width: 400px;
+    line-height: 55px;
+    margin: 0;
+}
+.top__main-content {
+    line-height: 20px;
+    font-size: 13.5px;
+    color: black;
+}
+.top__content-right {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+}
+.top__btn {
+    display: inline-block;
+    font-weight: 700;
+    color: white;
+    background-color: #f00;
+    border-radius: 4px;
+    padding: 15px 50px 15px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+}
+.header_content {
+    padding-top: 50px;
+
+}
+.services__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.services__content-right {
+    display: inline-block;
+    width: 505px;
+}
+.services__content-item {
+    margin-left: 25px;
+    width: 225px;
+    display: inline-block;
+}
+.services__titlle {
+    letter-spacing: 3px;
+    line-height: 37px;
+    font-size: 27px;
+    color: #5b5b5b;
+    margin: 0;
+}
+.services__content-left {
+    max-width: 400px;
+}
+.fas,
+.far{
+    color: #e7a0ac;
+}
+.services__right-title {
+    letter-spacing: 2px;
+    color: #989898;
+    margin: 20px 0 10px;
+    font-size: 20px;
+}
+.services__right-text {
+    font-size: 15px;
+}
+.services__main-text {
+    color: #8d8d8d;
+    margin: 25px 0 35px;
+}
+.services__btn {
+    font-weight: 700;
+    color: #e0575d;
+    background-color: white;
+    border-radius: 4px;
+    padding: 15px 50px 15px;
+    border: 2px solid #e0575d;
+    cursor: pointer;
+}
