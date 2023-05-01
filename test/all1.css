@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: darkkhaki;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tittle {
+    padding: 20px 10px 20px;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    padding: 0 20px 0;
+}
+
+.answers {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+a {
+    padding-bottom: 30px;
+    text-decoration: none;
+}
+
+.content {
+    display: none;
+    text-align: left;
+    margin: 0;
+}
+
+.trigger {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(13, 11, 11);
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.trigger:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Кольори тексту */
+
+code.language-sql {
+    color: #000000;
+    /* background-color: #ff8181; */
+    text-align: left;
+}
+
+
+/* Кольори фону */
+
+pre code.language-sql {
+    background-color: #282a36;
+}
+
+
+/* Кольори ключових слів */
+
+code.language-sql .keyword {
+    color: #f92672;
+}
+
+
+/* Кольори рядкових літералів */
+
+code.language-sql .string {
+    color: #e6db74;
+}
+
+
+/* Кольори чисел */
+
+code.language-sql .number {
+    color: #abff81;
+}
+
+
+/* Кольори коментарів */
+
+code.language-sql .comment {
+    color: #75715e;
+}
+
+code.language-sql .operator {
+    background-color: none;
+}
+
+.br_text {
+    font-size: 15px;
+    margin: 7px 0 5px;
+    color: #282a36;
+}
+
+code {
+    white-space: pre-wrap;
+}
+
+h2 {
+    width: 100%;
+}
+
+.tittle_lower {
+    margin: 20px 0px 30px;
+}
