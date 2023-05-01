@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    text-align: center;
+    background-color: #ebecf1;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tittle {
+    padding: 15px 0 15px;
+    margin: 20px 10px 30px;
+    background: pink;
+}
+
+.prize li {
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.prize {
+    background-color: rosybrown;
+    padding: 15px 10px 5px;
+}
+
+.cards_tittle {
+    padding: 10px 0 10px;
+}
+
+.all_cards {
+    padding: 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_1 {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px 10px 20px;
+    background: whitesmoke;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-top: 5px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    /*   object-fit: contain;*/
+    margin-bottom: 10px;
+}
+
+.footer {
+    font-size: 12px;
+}
+
+.containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.card {
+    width: calc(50% - 15px);
+    padding: 15px;
+    background-color: #e5f1f2;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+
+/* Новий стиль для п'ятої картки - квізу, яка буде на новому рядку */
+
+.card:nth-child(5) {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #F9C74F;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 600px) {
+    img {
+        height: 150px;
+        margin-bottom: 0;
+    }
+    h1 {
+        font-size: 14px;
+    }
+    a {
+        display: inline-block;
+        margin-top: 10px;
+        background-color: #F9C74F;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.2s ease;
+        font-size: 10px;
+        padding: 5px 17px 5px;
+    }
+}
